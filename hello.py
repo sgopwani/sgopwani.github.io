@@ -1,0 +1,2 @@
+names = ["Ron", "Harry", "Hermione"]
+

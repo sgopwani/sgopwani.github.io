@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html>
 
-<body>
-  <style> 
-    body{background-color: CornflowerBlue;} 
-  </style>
-<h1> Welcome to Health Flex.  </h1>
-  
-<style>
-.button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
+<head>
+  <link rel="stylesheet" href="appStyle.css">
+  <script type="text/javascript" src="./dropGame.js"></script>
+  <script type="text/javascript" src="./todo.js"></script> 
+</head>
 
-.button1 {background-color: #4CAF50;} /* Green */
-.button2 {background-color: #008CBA;} /* Blue */
-</style>
-  
-<button class="button button1"> <a href="https://www.google.com/">Provider Commit Test</a>  </button>
-<button class="button button2"> <a href="https://www.espn.com/">Health Care Facility</a>  </button>
-  
+<body>
+
+<h1> Welcome to Sumeets Sandbox </h1>
+
+<button class="button" onclick="addTodo()"> Add To Do</button> 
+<button class="button" onclick="startGame()"> Start Game</button> 
+
+<div id="ToDoCount"> Total Todos: 0 </div>
+<div id="TodosLeft"> Todos Left: 0 </div>
+
+<ul id="Todos">
+</ul>
+
+<div id="game"></div>
+<div id="ball"></div>
+<div id="rect"></div>
+
+<div id="clock">Time Left: 20</div>
+<h2 id = gameScore>  Game Score: 0</h2>
+
 </body>
+
 
 </html>
